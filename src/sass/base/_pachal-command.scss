@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @include mobile {
+    width: 480px;
+  }
+
+  @include tablet {
+    width: 768px;
+    padding: 0 32px;
+  }
+
+  @include desktop {
+    width: 1200px;
+    padding: 0 16px;
+  }
+}
