@@ -1,0 +1,204 @@
+.hero {
+  background: url('../img/hero.png') center no-repeat;
+  background-size: cover;
+  padding: 8% 15px 6% 15px;
+}
+
+.hero_porten {
+  margin: 0 auto;
+  max-width: 320px;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-bottom: 4%;
+}
+
+.hero_descr {
+  margin: 0 auto;
+  max-width: 730px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.hero_second {
+  min-height: 0;
+  @include spaceBetw;
+}
+
+.hero_new-season {
+  padding: 40px;
+  @include desktop {
+    padding: 10px;
+    max-width: 70%;
+  }
+  @include bigDesktop {
+    padding: 90px 80px;
+    max-width: 60%;
+  }
+}
+
+.hero_new-season .products_list {
+  display: flex;
+  gap: 10px;
+  @media screen and (max-width: 1024px) {
+    flex-wrap: wrap;
+  }
+  @include desktop {
+    gap: 50px;
+  }
+}
+.hero_new-season .products_list {
+  display: flex;
+  gap: 10px;
+  @media screen and (max-width: 1024px) {
+    flex-wrap: wrap;
+  }
+  @include desktop {
+    gap: 50px;
+  }
+}
+
+.products_item {
+  font-family: 'Playfair Display', serif;
+}
+.hero_wrap-span {
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+.hero_price-span {
+  font-size: 16px;
+  line-height: 21px;
+}
+.hero_new-collection {
+  background: url('../img/about/about.png') left top no-repeat;
+  background-size: cover;
+  display: flex;
+  min-height: 100%;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 2% 0 8%;
+  width: 40%;
+  flex: 0 1 50%;
+}
+.content {
+  text-align: center;
+}
+
+.hero_last {
+  display: flex;
+  flex-direction: row;
+  min-height: 56vh;
+}
+.hero_last-collection {
+  width: 60%;
+  padding: 4% 0 4% 0;
+  text-align: center;
+}
+.hero_last-inf {
+  max-width: 480px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 15px 50px 15px;
+  line-height: 21px;
+}
+.hero_last-link {
+  margin-bottom: 80px;
+}
+//  ! ------
+
+@media screen and (max-width: 400px) {
+  .hero_new-season {
+    min-height: 40vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    min-height: 60vh;
+    padding: 14% 15px 6% 15px;
+  }
+  .hero_porten {
+    text-align: center;
+  }
+
+  .hero_img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .hero_descr {
+    font-size: 12px;
+    padding-top: 6%;
+  }
+
+  .hero_second {
+    height: auto;
+  }
+  .hero_new-season {
+    min-height: 48vh;
+    padding: 8% 0 10%;
+  }
+  .hero_new-collection {
+    min-height: 44vh;
+  }
+  .hero_last-collection {
+    min-height: 52vh;
+    padding: 10% 0 4% 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .hero_descr {
+    font-size: 14px;
+  }
+  .hero_last-collection {
+    min-height: 52vh;
+    padding: 10% 0 4% 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .hero_descr {
+    font-size: 14px;
+  }
+  .hero_second {
+    height: auto;
+    display: block;
+    flex-direction: column;
+  }
+  .hero_new-season {
+    min-height: 50vh;
+    min-width: 100%;
+    padding: 4% 74px 6%;
+  }
+  .hero_new-season,
+  .hero_new-collection {
+    width: 100%;
+  }
+  .hero_new-collection {
+    min-height: 54vh;
+  }
+  .hero_last {
+    height: auto;
+    flex-direction: column;
+  }
+  .hero_last-collection {
+    width: 100%;
+    min-height: 64vh;
+  }
+  .hero_last-collection .link {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .hero_second {
+    min-height: 54vh;
+  }
+
+  .hero_last {
+    min-height: 54vh;
+  }
+}

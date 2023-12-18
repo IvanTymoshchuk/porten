@@ -6,9 +6,20 @@
     <title>Porten</title>
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
+    <link rel="icon" type="image/png" href="./img/fivicon/fivicon.png" />
   </head>
   <body>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <include src="./partials/header.html"></include>
+    <main>
+      <include src="./partials/hero.html"></include>
+      <include src="./partials/colection.html"></include>
+      <include src="./partials/about.html"></include>
+      <include src="./partials/partnerts.html"></include>
+    </main>
+    <include src="./partials/footer.html"></include>
+    <script src="js/colection.js" type="module"></script>
+    <script src="js/about.js" type="module"></script>
+    <script src="js/burger.js" type="module"></script>
   </body>
 </html>

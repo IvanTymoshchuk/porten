@@ -1,7 +1,27 @@
 // Р О З М І Р И
+@mixin maxSmalMobile {
+  @media screen and (max-width: 320px) {
+    @content;
+  }
+}
+@mixin smalMobile {
+  @media screen and (min-width: 320px) {
+    @content;
+  }
+}
 
 @mixin mobile {
   @media screen and (min-width: 480px) {
+    @content;
+  }
+}
+@mixin maxMediumTablet {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+@mixin mediumTablet {
+  @media screen and (min-width: 640px) {
     @content;
   }
 }
@@ -11,23 +31,23 @@
     @content;
   }
 }
+@mixin maxTablet {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
 
 @mixin desktop {
   @media screen and (min-width: 1200px) {
     @content;
   }
 }
-//
-
-// Р Е Т И Н А
-
-@mixin retina {
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+@mixin bigDesktop {
+  @media screen and (min-width: 1450px) {
     @content;
   }
 }
+
 //
 
 // Ф Л Е К С И
@@ -41,7 +61,10 @@
 @mixin centerAlingn() {
   display: flex;
   align-items: center;
-  
+}
+@mixin spaceBetw() {
+  display: flex;
+  justify-content: space-between;
 }
 //
 
@@ -56,4 +79,3 @@
 
   letter-spacing: $ls + em;
 }
-

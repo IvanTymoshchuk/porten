@@ -1,0 +1,22 @@
+.partners {
+  background: #0f0f0f;
+  padding: 6% 0 6% 0;
+}
+
+.partners_list {
+  @include spaceBetw;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.partners_item,
+.partners_item img {
+  max-height: 94px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) {
+  .partners {
+    padding: 4% 0 6%;
+  }
+}
