@@ -1,0 +1,2 @@
+!function(){var e=document.getElementById("nav-menu"),n=document.getElementById("toggle-menu"),t=document.getElementById("close-menu");function c(){e.classList.remove("show")}n.addEventListener("click",(function(){e.classList.add("show")})),t.addEventListener("click",(function(){c()})),document.addEventListener("keydown",(function(n){"Escape"===n.key&&e.classList.contains("show")&&c()}))}();
+//# sourceMappingURL=index.06080004.js.map

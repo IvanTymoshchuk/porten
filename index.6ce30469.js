@@ -1,0 +1,2 @@
+const e=document.getElementById("nav-menu"),n=document.getElementById("toggle-menu"),t=document.getElementById("close-menu");function s(){e.classList.remove("show")}n.addEventListener("click",(()=>{e.classList.add("show")})),t.addEventListener("click",(()=>{s()})),document.addEventListener("keydown",(n=>{"Escape"===n.key&&e.classList.contains("show")&&s()}));
+//# sourceMappingURL=index.6ce30469.js.map
