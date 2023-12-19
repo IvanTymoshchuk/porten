@@ -5,7 +5,6 @@ import Img4 from '../img/watch/watch-1.png';
 import Img5 from '../img/watch/ses-watch-1.png';
 import Img6 from '../img/watch/watch-3.png';
 import Img7 from '../img/watch/watch-4.png';
-import Img8 from '../img/watch/ses-watch-3.png';
 
 export const colection = [
   {
@@ -42,10 +41,5 @@ export const colection = [
     preview: Img7,
     name: 'Gucci Mens',
     price: '38 500 грн.',
-  },
-  {
-    preview: Img8,
-    name: '',
-    price: '',
   },
 ];

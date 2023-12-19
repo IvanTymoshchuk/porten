@@ -18,6 +18,20 @@
   }
 }
 
+.products_item-img {
+  position: absolute;
+  width: 260px;
+}
+
+.z-index {
+  z-index: 10;
+}
+
+.blur {
+  backdrop-filter: blur(1.5px);
+  background-color: rgba(25, 27, 28, 0.5);
+}
+
 @media screen and (max-width: 400px) {
   .colection {
     min-height: 40vh;

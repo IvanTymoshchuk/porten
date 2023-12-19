@@ -2,7 +2,7 @@ import { colection } from './colectionItems';
 
 const colectionEl = document.querySelector('.products_list-sec');
 const element = createColection(colection);
-colectionEl.insertAdjacentHTML('beforeend', element);
+colectionEl.insertAdjacentHTML('afterbegin', element);
 
 function createColection() {
   return colection

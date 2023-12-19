@@ -35,6 +35,15 @@ input,
 button {
   outline: none;
 }
+a,
+button {
+  cursor: pointer;
+  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    transition: color 0.75s, transform 0.75s;
+    transform: scale(1.1);
+  }
+}
 
 .link {
   border: 1px solid #fff;
