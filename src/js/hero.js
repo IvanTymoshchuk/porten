@@ -1,6 +1,6 @@
 import { colection } from './colectionItems';
 
-const colectionEl = document.querySelector('.products_list-sec');
+const colectionEl = document.querySelector('.products_list-first');
 const element = createColection(colection);
 colectionEl.insertAdjacentHTML('beforeend', element);
 
@@ -9,7 +9,7 @@ function createColection() {
     .map(({ preview, name, price }) => {
       return `  
       <li class="products_item">
-      <div class="img_wrapper img_wrapper-height">
+      <div class="img_wrapper">
         <a href="#">
             <img src=${preview} alt=${name} />
         </a>
