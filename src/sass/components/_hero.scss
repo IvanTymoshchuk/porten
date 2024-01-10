@@ -1,5 +1,5 @@
 .hero {
-  background: url('../img/hero.png') center no-repeat;
+  background: url("../img/hero.png") center no-repeat;
   background-size: cover;
   padding: 8% 15px 6% 15px;
 }
@@ -20,11 +20,11 @@
 .hero_porten-title {
   max-width: 185px;
   height: 86px;
-  font-family: 'Stick No Bills', sans-serif;
+  font-family: "Stick No Bills", sans-serif;
   font-size: 64px;
   line-height: normal;
   &:after {
-    content: '';
+    content: "";
     display: block;
     width: 179px;
     border-bottom: 1px solid #fff;
@@ -82,7 +82,7 @@
 }
 
 .products_item {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 .hero_wrap-span {
   font-size: 18px;
@@ -94,7 +94,7 @@
   line-height: 21px;
 }
 .hero_new-collection {
-  background: url('../img/about/about.png') left top no-repeat;
+  background: url("../img/about/about.png") left top no-repeat;
   background-size: cover;
   display: flex;
   min-height: 100%;
@@ -187,7 +187,7 @@
   .hero_new-season {
     min-height: 50vh;
     min-width: 100%;
-    padding: 4% 74px 6%;
+    padding: 4% 113px 6%;
   }
   .hero_new-season,
   .hero_new-collection {

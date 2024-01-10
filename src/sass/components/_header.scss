@@ -4,6 +4,13 @@ li.active a {
   background: #1f1f1f;
 }
 
+.scrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 .header_top {
   min-height: 44px;
   background: #000;
@@ -33,7 +40,7 @@ li.active a {
 }
 
 .header_contacts-item:not(:last-child)::after {
-  content: '|';
+  content: "|";
   margin-left: 12px;
   margin-right: 12px;
 }
@@ -69,7 +76,7 @@ li.active a {
 
 .img_block {
   width: 60%;
-  background: url('../img/about/about-sec.png') top center no-repeat;
+  background: url("../img/about/about-sec.png") top center no-repeat;
   background-size: cover;
 }
 
