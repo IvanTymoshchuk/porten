@@ -1,0 +1,2 @@
+const e=document.getElementById("nav-menu"),n=document.getElementById("toggle-menu"),t=document.getElementById("close-menu");function s(){e.classList.remove("show")}n.addEventListener("click",(()=>{e.classList.add("show")})),t.addEventListener("click",(()=>{s()})),document.addEventListener("keydown",(n=>{"Escape"===n.key&&e.classList.contains("show")&&s()})),window.addEventListener("scroll",(function(){document.querySelector(".header").classList.toggle("scrolled",window.scrollY>0)}));
+//# sourceMappingURL=index.67dc86b4.js.map
